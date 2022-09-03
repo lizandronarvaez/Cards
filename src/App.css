@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin-top: 0.5%;
+  font-size: 2em;
+}
+
+.ContainerBox{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Medias Queries */
+@media screen and (max-width:430px) {
+  .ContainerBox{
+      display: inline-block;
+      
+  }
+}
+@media screen and (max-width:700px) {
+  .ContainerBox{
+      display: inline-block;
+      
+  }
+}
